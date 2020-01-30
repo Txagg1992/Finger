@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    Light Colors-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="backgroundColor">#fcfcfc</color>
+    <color name="textColor">#808080</color>
+    <color name="tintColor">#000000</color>
+    <color name="buttonColor">#004b41</color>
+    <color name="fingerColor">#2196F3</color>
+
+<!--    Dark Colors-->
+    <color name="colorDarkPrimary">#212121</color>
+    <color name="colorDarkPrimaryDark">#000000</color>
+
+    <color name="backgroundColorDark">#030303</color>
+    <color name="textColorDark">#ffffff</color>
+    <color name="tintColorDark">#ffffff</color>
+    <color name="buttonColorDark">#00a493</color>
+    <color name="fingerColorDark">#3F51B5</color>
+</resources>
