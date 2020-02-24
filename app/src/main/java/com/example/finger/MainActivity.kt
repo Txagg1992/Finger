@@ -4,14 +4,12 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.hardware.biometrics.BiometricPrompt
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CancellationSignal
 import android.view.View
-import android.widget.ActionMenuView
 import android.widget.CompoundButton
 import android.widget.Toast
-import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.concurrent.Executors
@@ -86,6 +84,8 @@ class MainActivity : AppCompatActivity() {
                         }
                     })
             })
+        }else{
+            Toast.makeText(this, "Device is not Pie or newer.", Toast.LENGTH_LONG).show()
         }
 
     }
